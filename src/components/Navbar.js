@@ -14,7 +14,7 @@ function Nabar() {
         <a class="nav-link" href="#project">
           Projects
         </a>
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#contact">
           Contact Me
         </a>
       </nav>

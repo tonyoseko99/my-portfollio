@@ -1,6 +1,8 @@
 import React from "react";
 import Project from "./Project";
 import About from "./About";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -13,6 +15,12 @@ function Home() {
       {/* project section */}
       <Project />
       {/* end of project section */}
+      {/* Contact section */}
+      <Contact />
+      {/* end of Contact section */}
+      {/* footer section */}
+      <Footer />
+      {/* end of footer section */}
     </>
   );
 }
