@@ -55,7 +55,8 @@ html {
   color: #fff;
   text-decoration: none;
   padding: 0 10px;
-  font-size: 14px;
+  font-size: 22px;
+  font-weight: lighter;
   letter-spacing: 0.5px;
   line-height: 50px;
   display: flex;
