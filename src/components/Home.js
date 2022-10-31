@@ -4,14 +4,16 @@ import About from "./About";
 
 function Home() {
   return (
-    <div className="container">
-      {/* about section */}
-      <About />
-      {/* end of about section */}
+    <>
+      <div className="container">
+        {/* about section */}
+        <About />
+        {/* end of about section */}
+      </div>
       {/* project section */}
       <Project />
       {/* end of project section */}
-    </div>
+    </>
   );
 }
 

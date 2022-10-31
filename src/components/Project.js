@@ -4,13 +4,17 @@ function Project() {
   return (
     <section className="project" id="project">
       <div className="container">
-        <h2 className="project__title">PROJECTS</h2>
+        <h2 className="project__title">FEATURE WORKS</h2>
+        <p className="project__text">
+          Here are some of my recent projects. I'm always working on new
+          projects, so check back soon.
+        </p>
         <div className="project__container">
-            {/* project-1 */}
+          {/* project-1 */}
           <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1610392019363-8b1b2b2b2b1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 alt="project"
               />
             </div>
@@ -30,12 +34,12 @@ function Project() {
               </div>
             </div>
           </div>
-            {/* end of project-1 */}
-            {/* project-2 */}
-            <div className="project__card">
+          {/* end of project-1 */}
+          {/* project-2 */}
+          <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1610392019363-8b1b2b2b2b1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 alt="project"
               />
             </div>
@@ -55,12 +59,12 @@ function Project() {
               </div>
             </div>
           </div>
-            {/* end of project-2 */}
-            {/* project-3 */}
-            <div className="project__card">
+          {/* end of project-2 */}
+          {/* project-3 */}
+          <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1610392019363-8b1b2b2b2b1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 alt="project"
               />
             </div>
@@ -80,8 +84,7 @@ function Project() {
               </div>
             </div>
           </div>
-            {/* end of project-3 */}
-            
+          {/* end of project-3 */}
         </div>
       </div>
     </section>

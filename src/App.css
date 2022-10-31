@@ -201,6 +201,10 @@ html {
 }
 
 /* projects section */
+.project{
+  background-color: #1a1918;
+  padding: 50px 0;
+}
 
 .project__container{
   display: flex;
@@ -213,11 +217,60 @@ html {
 
 .project__card{
   width: 300px;
-  height: 300px;
+  height: 400px;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  overflow: hidden;
   margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  overflow: hidden;
   transition: 0.3s;
+}
+
+.project__card:hover{
+  transform: translateY(-10px);
+}
+
+.project__title{
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.project__text{
+  width: 350px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+  color: white;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.project__card--img img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project__card--content{
+  padding: 20px;
+}
+
+.project__card--btn a{
+  background-color: #eb446e;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+.project__card--btn a:hover{
+  background-color: #fff;
+  color: #eb446e;
+  border: 2px solid #eb446e;
 }

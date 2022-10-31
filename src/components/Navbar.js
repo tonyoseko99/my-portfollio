@@ -11,10 +11,7 @@ function Nabar() {
         <a class="nav-link" href="#about">
           About Me
         </a>
-        <a class="nav-link" href="#">
-          Skills
-        </a>
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#project">
           Projects
         </a>
         <a class="nav-link" href="#">
