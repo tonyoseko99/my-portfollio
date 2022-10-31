@@ -49,6 +49,10 @@ html {
   justify-content: center;
   align-items: center;
   height: 50px;
+  background-color: #1a1918;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .nav a {
