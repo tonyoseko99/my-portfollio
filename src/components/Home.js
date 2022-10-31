@@ -1,26 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
 import image from "../assets/image.png";
+import Project from "./Project";
 
 function Home() {
   return (
     <>
-      {/* header section */}
-      <header className="header">
-        <div>
-          <h1 className="header__title">
-            Hi, I'm <span className="header__title--name">John Doe</span>
-          </h1>
-          <p className="header__subtitle">I'm a web developer</p>
-        </div>
-      </header>
-      {/* end of header section */}
       {/* about section */}
-      <section className="about">
+      <section className="about" id="about">
         <div className="container">
           <div className="about__container">
             <h2 className="about__title">ABOUT ME</h2>
-            <p className="about__text">Web designer and web developer</p>
+            <p className="about__text" id="about-text-1">Web designer and web developer</p>
+
             <p className="about__text">
               I'm a front-end web developer, JavaScript programmer, and React.js
               developer. I love making websites look beautiful and
@@ -34,6 +25,9 @@ function Home() {
           <img src={image} alt="about" className="about__img" />
         </div>
       </section>
+      {/* end of about section */}
+      {/* projects section */}
+      <section className="container"></section>
     </>
   );
 }
