@@ -348,10 +348,6 @@ html {
 /* media queries */
 
 @media screen and (max-width: 425px) {
-  .header {
-    padding: 20px;
-  }
-
   .contact__text {
     font-size: 20px;
     font-weight: normal;
@@ -372,7 +368,7 @@ html {
     font-weight: lighter;
   }
 
-  .contact{
+  .contact {
     padding: 20px;
   }
 }
