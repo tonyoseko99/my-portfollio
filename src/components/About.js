@@ -19,7 +19,7 @@ function About() {
           Download CV <i class="fas fa-download"></i>
         </button>
       </div>
-      <img src={image} alt="about" className="about__img" />
+      {/* <img src={image} alt="about" className="about__img" /> */}
     </div>
   );
 }
