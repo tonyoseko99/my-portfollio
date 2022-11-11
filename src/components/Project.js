@@ -15,10 +15,7 @@ function Project() {
           {/* project-1 */}
           <div className="project__card">
             <div className="project__card--img">
-              <img
-                src={image2}
-                alt="project"
-              />
+              <img src={image2} alt="project" />
             </div>
             <div className="project__card--content">
               <h3 className="project__card--title">Funzo Learning</h3>
@@ -27,11 +24,11 @@ function Project() {
                 Quisquam, quae.
               </p>
               <div className="project__card--btn">
-                <a href="https://schedule-frontend-funzo.vercel.app/" className="btn btn-dark">
+                <a
+                  href="https://github.com/groupschedule/schedule_frontend"
+                  className="btn btn-dark"
+                >
                   View Project
-                </a>
-                <a href="https://github.com/groupschedule/schedule_frontend" className="btn btn-dark">
-                  View Code
                 </a>
               </div>
             </div>
@@ -40,22 +37,20 @@ function Project() {
           {/* project-2 */}
           <div className="project__card">
             <div className="project__card--img">
-              <img
-                src={image1}
-                alt="jenga-shop-project"
-              />
+              <img src={image1} alt="jenga-shop-project" />
             </div>
             <div className="project__card--content">
               <h3 className="project__card--title">Jenga-Shop</h3>
               <p className="project__card--text">
-              A web app designed and developed to facilitate the sale of products online
+                A web app designed and developed to facilitate the sale of
+                products online
               </p>
               <div className="project__card--btn">
-                <a href="http://jenga-shop.vercel.app/" className="btn btn-dark">
+                <a
+                  href="https://github.com/tonyoseko99/jenga-shop"
+                  className="btn btn-dark"
+                >
                   View Project
-                </a>
-                <a href="https://github.com/tonyoseko99/jenga-shop" className="btn btn-dark">
-                  View Code
                 </a>
               </div>
             </div>
@@ -75,11 +70,11 @@ function Project() {
                 A rental website for houses and apartments. <em>in progress</em>
               </p>
               <div className="project__card--btn">
-                <a href="#" className="btn btn-dark">
+                <a
+                  href="https://github.com/tonyoseko99/rentals"
+                  className="btn btn-dark"
+                >
                   View Project
-                </a>
-                <a href="https://github.com/tonyoseko99/rentals" className="btn btn-dark">
-                  View Code
                 </a>
               </div>
             </div>

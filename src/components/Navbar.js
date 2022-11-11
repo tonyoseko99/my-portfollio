@@ -42,7 +42,9 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <button class="btn btn-dark">View Resume</button>
+          <a className="nav-link" href="https://drive.google.com/file/d/1vWe-Qm4fO7UvKqvauRd-Y2XTqN5qukJD/view?usp=sharing">
+            <i class="fas fa-download"> Resume</i>
+          </a>
         </div>
       </nav>
       {/* end of navbar */}
