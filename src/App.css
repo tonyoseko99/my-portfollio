@@ -58,8 +58,8 @@ html {
 
 .navbar-toggler {
   border: none;
-  background-color: white !important;
-  color: white !important;
+  background-color: lightgray !important;
+  color: lightgray !important;
 }
 
 .header-section nav a {
