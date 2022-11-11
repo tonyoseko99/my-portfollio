@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="header-section">
       {/* navbar */}
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand" href="#">
           Portfolio
         </a>
