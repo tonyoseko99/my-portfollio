@@ -12,22 +12,22 @@ function Contact() {
         </p>
         <div className="contact__info">
           {/* email */}
-          <a href="">
+          <a href="mailto:tonnyseko@gmail.com">
             <i class="far fa-envelope"></i>
           </a>
           {/* end of email */}
           {/* github */}
-          <a href="">
+          <a href="https://github.com/tonyoseko99">
             <i class="fab fa-github"></i>
           </a>
           {/* end of github */}
           {/* linkedin */}
-          <a href="">
+          <a href="https://www.linkedin.com/in/tonny-oseko-8074a2152/">
             <i class="fab fa-linkedin"></i>
           </a>
           {/* end of linkedin */}
           {/* twitter */}
-          <a href="">
+          <a href="https://twitter.com/TonyOseko">
             <i class="fab fa-twitter"></i>
           </a>
           {/* end of twitter */}
