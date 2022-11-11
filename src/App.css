@@ -51,14 +51,19 @@ html {
 }
 
 .header-section nav {
-  background: transparent;
-  position: fixed;
+  background: transparent !important;
   width: 100%;
   z-index: 999;
 }
 
+.navbar-toggler{
+  border: none;
+  background-color: white !important;
+  color: white !important;
+}
+
 .header-section nav a {
-  color: #fff;
+  color: #fff !important;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -67,7 +72,7 @@ html {
 .navbar-brand {
   font-size: 2rem;
   font-weight: 400;
-  color: #fff;
+  color: #fff !important;
   border: 2px solid #fff;
   padding: 10px;
 }
