@@ -297,7 +297,7 @@ html {
 /* contact section */
 .contact {
   background-color: #fff;
-  padding: 50px 20px;
+  padding: 50px;
   color: #1a1918;
   display: flex;
   flex-direction: column;
@@ -314,25 +314,25 @@ html {
   padding: 0 0 0 10px;
 }
 
-.contact__container{
+.contact__container {
   padding: 30px 0;
 }
 
-.contact__text{
+.contact__text {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 20px;
   width: 60%;
 }
 
-.contact__info a{
+.contact__info a {
   font-size: 20px;
   font-weight: lighter;
   color: #1a1918;
   padding: 10px;
 }
 
-.contact__info a:hover{
+.contact__info a:hover {
   color: #eb446e;
 }
 
@@ -348,32 +348,32 @@ html {
 /* media queries */
 
 @media screen and (max-width: 425px) {
-  .header{
+  .header {
     padding: 20px;
     height: 80vh;
   }
 
-
-
-
-  .contact__text{
+  .contact__text {
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 20px;
     width: 100%;
   }
 
-  .about__text{
+  .about__text {
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 20px;
     width: 100%;
   }
 
-  .project__card--text{
-    
+  .project__card--text {
     text-align: left;
     font-size: 18px;
     font-weight: lighter;
+  }
+
+  .contact{
+    padding: 20px;
   }
 }
