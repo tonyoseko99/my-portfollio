@@ -125,7 +125,7 @@ html {
 
 #about-text-1 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500 !important;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 20px;
