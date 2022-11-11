@@ -132,6 +132,12 @@ html {
   padding: 15px 0;
 }
 
+.about__text{
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
 .about__container button {
   background-color: #eb446e;
   color: #fff;
@@ -370,4 +376,5 @@ html {
   .contact {
     padding: 20px;
   }
+}
 }
