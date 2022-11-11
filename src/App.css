@@ -320,7 +320,7 @@ html {
 
 .contact__text{
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: normal;
   margin-bottom: 20px;
   width: 60%;
 }
@@ -350,7 +350,7 @@ html {
 @media screen and (max-width: 425px) {
   .contact__text{
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: normal;
     margin-bottom: 20px;
     width: 100%;
   }
