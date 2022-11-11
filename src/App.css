@@ -297,7 +297,7 @@ html {
 /* contact section */
 .contact {
   background-color: #fff;
-  padding: 50px;
+  padding: 50px 20px;
   color: #1a1918;
   display: flex;
   flex-direction: column;

@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <h2 className="contact__title">CONTACT ME</h2>
+      <h3 className="contact__title">CONTACT ME</h3>
       <div className="contact__container">
         <p className="contact__text">
           I'm currently looking for new opportunities, my inbox is always open.
