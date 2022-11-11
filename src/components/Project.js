@@ -1,4 +1,6 @@
 import React from "react";
+import image1 from "./assets/images/jenga-shop.png";
+import image2 from "./assets/images/funzo.png";
 
 function Project() {
   return (
@@ -14,21 +16,21 @@ function Project() {
           <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+                src={image2}
                 alt="project"
               />
             </div>
             <div className="project__card--content">
-              <h3 className="project__card--title">Project 1</h3>
+              <h3 className="project__card--title">Funzo Learning</h3>
               <p className="project__card--text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quisquam, quae.
               </p>
               <div className="project__card--btn">
-                <a href="#" className="btn btn-dark">
+                <a href="https://schedule-frontend-funzo.vercel.app/" className="btn btn-dark">
                   View Project
                 </a>
-                <a href="#" className="btn btn-dark">
+                <a href="https://github.com/groupschedule/schedule_frontend" className="btn btn-dark">
                   View Code
                 </a>
               </div>
@@ -39,21 +41,20 @@ function Project() {
           <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-                alt="project"
+                src={image1}
+                alt="jenga-shop-project"
               />
             </div>
             <div className="project__card--content">
-              <h3 className="project__card--title">Project 1</h3>
+              <h3 className="project__card--title">Jenga-Shop</h3>
               <p className="project__card--text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quae.
+              A web app designed and developed to facilitate the sale of products online
               </p>
               <div className="project__card--btn">
-                <a href="#" className="btn btn-dark">
+                <a href="http://jenga-shop.vercel.app/" className="btn btn-dark">
                   View Project
                 </a>
-                <a href="#" className="btn btn-dark">
+                <a href="https://github.com/tonyoseko99/jenga-shop" className="btn btn-dark">
                   View Code
                 </a>
               </div>
@@ -64,21 +65,20 @@ function Project() {
           <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-                alt="project"
+                src="https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="rentals"
               />
             </div>
             <div className="project__card--content">
-              <h3 className="project__card--title">Project 1</h3>
+              <h3 className="project__card--title">Rentals</h3>
               <p className="project__card--text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quae.
+                A rental website for houses and apartments. <em>in progress</em>
               </p>
               <div className="project__card--btn">
                 <a href="#" className="btn btn-dark">
                   View Project
                 </a>
-                <a href="#" className="btn btn-dark">
+                <a href="https://github.com/tonyoseko99/rentals" className="btn btn-dark">
                   View Code
                 </a>
               </div>
