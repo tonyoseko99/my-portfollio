@@ -361,4 +361,11 @@ html {
     margin-bottom: 20px;
     width: 100%;
   }
+
+  .project__card--text{
+    
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+  }
 }
