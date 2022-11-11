@@ -348,7 +348,10 @@ html {
 /* media queries */
 
 @media screen and (max-width: 425px) {
-  .header {
-    height: 100vh;
+  .contact__text{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    width: 100%;
   }
 }
