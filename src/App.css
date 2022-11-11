@@ -348,9 +348,12 @@ html {
 /* media queries */
 
 @media screen and (max-width: 425px) {
+
+  .header-section{
+    height: 100vh;
+  }
   .header {
     padding: 20px;
-    height: 80vh;
   }
 
   .contact__text {
