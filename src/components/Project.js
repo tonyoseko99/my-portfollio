@@ -20,8 +20,8 @@ function Project() {
             <div className="project__card--content">
               <h3 className="project__card--title">Funzo Learning</h3>
               <p className="project__card--text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quae.
+                Funzo Learning is a learning platform that provides a
+                personalized learning experience for students.
               </p>
               <div className="project__card--btn">
                 <a
@@ -40,14 +40,14 @@ function Project() {
               <img src={image1} alt="jenga-shop-project" />
             </div>
             <div className="project__card--content">
-              <h3 className="project__card--title">Jenga-Shop</h3>
+              <h3 className="project__card--title">CyHealth</h3>
               <p className="project__card--text">
-                A web app designed and developed to facilitate the sale of
-                products online
+                CyHealth is a health platform that provides a personalized
+                data analysis for COVID-19 patients.
               </p>
               <div className="project__card--btn">
                 <a
-                  href="https://github.com/tonyoseko99/jenga-shop"
+                  href="https://github.com/tonyoseko99/cy-health"
                   className="btn btn-dark"
                 >
                   View Project
