@@ -14,6 +14,10 @@ function About({ handleClick }) {
         </p>
         {/* list skillset */}
         <div className="about__skillset">
+          <p className="about__skillset--text">
+            Here are some of the technologies I've been working with recently:
+          </p>
+          {/* list of skills */}
           <ul className="about__skillset--item">
             <li>
               <i class="fab fa-html5"></i>
