@@ -412,7 +412,7 @@ html {
 
   /* Styles for the navbar when the user scrolls down the page */
   #navbar.scrolled {
-    background-color: black;
+    background-color: black !important;
     z-index: 999;
   }
 
