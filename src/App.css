@@ -398,8 +398,22 @@ html {
     height: 95vh;
   }
 
-  .header-section nav {
+  /* sticky navbar */
+  #navbar {
+    position: fixed;
     padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    transition: background-color 0.5s;
+  }
+
+  /* Styles for the navbar when the user scrolls down the page */
+  #navbar.scrolled {
+    background-color: black;
+    z-index: 999;
   }
 
   .header {
