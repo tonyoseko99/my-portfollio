@@ -54,6 +54,11 @@ function About({ handleClick }) {
               <span> MongoDB </span>
             </li>
 
+            <li>
+              <i class="fas fa-database"></i>
+              <span> PostgreSQL </span>
+            </li>
+
             {/* ruby */}
             <li>
               <i class="fas fa-gem"></i>
@@ -64,6 +69,11 @@ function About({ handleClick }) {
             <li>
               <i class="fas fa-train"></i>
               <span> Rails </span>
+            </li>
+            {/* technical writing */}
+            <li>
+              <i class="fas fa-book"></i>
+              <span> Technical Writing </span>
             </li>
           </ul>
         </div>

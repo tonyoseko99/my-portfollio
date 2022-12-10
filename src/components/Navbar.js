@@ -59,6 +59,11 @@ function Navbar() {
                   Contact Me
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://medium.com/@tonnyseko" target="_blank">
+                  Blog
+                </a>
+              </li>
             </ul>
             <a className="nav-link" id="nav-link-download" style={{ cursor: "pointer" }}>
               <i class="fas fa-download" onClick={handleClick}>
