@@ -17,12 +17,27 @@ function Navbar() {
     });
   };
 
+  // onscroll event handler to change the navbar background color
+  // get navbar element
+  const navbar = document.getElementById("navbar");
+  // Add an event listener that listens for the "scroll" event
+  window.addEventListener("scroll", function () {
+    // If the user has scrolled down the page more than 50px
+    if (window.pageYOffset > 50) {
+      // Add the "scrolled" class to the navbar element, which changes the background color
+      navbar.classList.add("scrolled");
+    } else {
+      // Otherwise, remove the "scrolled" class
+      navbar.classList.remove("scrolled");
+    }
+  });
+
   return (
     <>
       {/* navbar */}
       <div className="header-section">
         {/* navbar */}
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
           <a class="navbar-brand" href="/">
             Portfolio
           </a>
@@ -60,12 +75,20 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://medium.com/@tonnyseko" target="_blank">
+                <a
+                  class="nav-link"
+                  href="https://medium.com/@tonnyseko"
+                  target="_blank"
+                >
                   Blog
                 </a>
               </li>
             </ul>
-            <a className="nav-link" id="nav-link-download" style={{ cursor: "pointer" }}>
+            <a
+              className="nav-link"
+              id="nav-link-download"
+              style={{ cursor: "pointer" }}
+            >
               <i class="fas fa-download" onClick={handleClick}>
                 {" "}
                 Resume

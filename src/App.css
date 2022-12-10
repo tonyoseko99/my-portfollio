@@ -50,11 +50,21 @@ html {
   position: relative;
 }
 
-.header-section nav {
-  background: transparent !important;
+/* sticky navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 999;
-  padding: 10px 50px;
-  
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+/* Styles for the navbar when the user scrolls down the page */
+#navbar.scrolled {
+  background-color: black;
+  z-index: 999;
 }
 
 .navbar-toggler {
@@ -78,11 +88,11 @@ html {
   padding: 10px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   border-bottom: 1px solid #eb446e;
 }
 
-#nav-link-download:hover{
+#nav-link-download:hover {
   color: #eb446e !important;
   border-bottom: none;
 }
@@ -171,7 +181,7 @@ html {
   border: 2px solid #eb446e;
 }
 
-.about__skillset--item{
+.about__skillset--item {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -180,13 +190,13 @@ html {
   padding: 0 30px;
 }
 
-.about__skillset--item > li{
+.about__skillset--item > li {
   list-style: none;
   padding: 10px;
   font-size: 20px;
 }
 
-.about__skillset--item > li > i{
+.about__skillset--item > li > i {
   color: #eb446e;
 }
 
@@ -388,10 +398,9 @@ html {
     height: 95vh;
   }
 
-  .header-section nav{
+  .header-section nav {
     padding: 10px;
   }
-
 
   .header {
     padding: 0 20px;
