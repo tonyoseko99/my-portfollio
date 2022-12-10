@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../assets/image.png";
-function About() {
+function About({ handleClick}) {
   return (
     <div className="container" id="about-container">
       <div className="about__container">
@@ -15,9 +15,8 @@ function About() {
         </p>
         <a
           className=""
-          href="https://drive.google.com/file/d/1vWe-Qm4fO7UvKqvauRd-Y2XTqN5qukJD/view?usp=sharing"
         >
-          <button type="button" class="btn btn-dark btn-lg">
+          <button type="button" class="btn btn-dark btn-lg" onClick={handleClick}>
             Download CV <i class="fas fa-download"></i>
           </button>
         </a>
