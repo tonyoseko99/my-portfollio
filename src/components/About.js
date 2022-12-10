@@ -14,44 +14,54 @@ function About({ handleClick }) {
         </p>
         {/* list skillset */}
         <div className="about__skillset">
-          <div className="about__skillset--item">
-            <i class="fab fa-html5"></i>
-            <span> HTML5 </span>
-            &nbsp;
+          <ul className="about__skillset--item">
+            <li>
+              <i class="fab fa-html5"></i>
+              <span> HTML5 </span>
+            </li>
 
-            <i class="fab fa-css3-alt"></i>
-            <span> CSS3 </span>
-            &nbsp;
+            <li>
+              <i class="fab fa-css3-alt"></i>
+              <span> CSS3 </span>
+            </li>
 
-            <i class="fab fa-js-square"></i>
-            <span> JavaScript </span>
-            &nbsp;
+            <li>
+              <i class="fab fa-js-square"></i>
+              <span> JavaScript </span>
+            </li>
 
-            <i class="fab fa-react"></i>
-            <span> React.js </span>
-            &nbsp;
+            <li>
+              <i class="fab fa-react"></i>
+              <span> React.js </span>
+            </li>
 
-            <i class="fab fa-node-js"></i>
-            <span> Node.js </span>
-
-            <i class="fab fa-bootstrap"></i>
-            <span> Bootstrap </span>
-            &nbsp;
+            <li>
+              <i class="fab fa-node-js"></i>
+              <span> Node.js </span>
+            </li>
+            <li>
+              <i class="fab fa-bootstrap"></i>
+              <span> Bootstrap </span>
+            </li>
 
             {/* mongoDB */}
-            <i class="fas fa-database"></i>
-            <span> MongoDB </span>
-            &nbsp;
+            <li>
+              <i class="fas fa-database"></i>
+              <span> MongoDB </span>
+            </li>
 
             {/* ruby */}
-            <i class="fas fa-gem"></i>
-            <span> Ruby </span>
-            &nbsp;
+            <li>
+              <i class="fas fa-gem"></i>
+              <span> Ruby </span>
+            </li>
 
             {/* rails */}
-            <i class="fas fa-train"></i>
-            <span> Rails </span>
-          </div>
+            <li>
+              <i class="fas fa-train"></i>
+              <span> Rails </span>
+            </li>
+          </ul>
         </div>
         <a className="">
           <button

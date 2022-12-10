@@ -171,14 +171,27 @@ html {
   border: 2px solid #eb446e;
 }
 
-.about__skillset--item{
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-  padding: 15px 0;
+.about__skillset{
+  border: 1px solid darkgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
 }
 
-.about__skillset--item span {
-  border-right: 2px solid #eb446e;
+.about__skillset--item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.about__skillset--item > li > i{
+  color: #eb446e;
 }
 
 .about__container h2,
