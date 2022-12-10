@@ -171,17 +171,6 @@ html {
   border: 2px solid #eb446e;
 }
 
-.about__skillset{
-  border: 1px solid darkgray;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  padding: 20px;
-  margin: 20px 0;
-  width: 100%;
-}
-
 .about__skillset--item{
   display: flex;
   flex-direction: row;
