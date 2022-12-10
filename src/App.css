@@ -180,6 +180,12 @@ html {
   padding: 0 30px;
 }
 
+.about__skillset--item > li{
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
 .about__skillset--item > li > i{
   color: #eb446e;
 }
