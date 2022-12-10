@@ -78,6 +78,15 @@ html {
   padding: 10px;
 }
 
+.nav-link:hover{
+  border-bottom: 1px solid #eb446e;
+}
+
+#nav-link-download:hover{
+  color: #eb446e !important;
+  border-bottom: none;
+}
+
 .header {
   height: 100vh;
   display: flex;
@@ -160,6 +169,16 @@ html {
   background-color: #fff;
   color: #eb446e;
   border: 2px solid #eb446e;
+}
+
+.about__skillset--item{
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+}
+
+.about__skillset--item span {
+  border-right: 2px solid #eb446e;
 }
 
 .about__container h2,

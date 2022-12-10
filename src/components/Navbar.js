@@ -7,7 +7,7 @@ function Navbar() {
   // function to download resume. Get the resume from the assets folder
   const handleClick = () => {
     const resume = require("../assets/resume.pdf");
-    const downloadWindow = window.open(resume, "_blank", "download=yes");
+    const downloadWindow = window.open(resume, "download=yes");
 
     // Register a load event handler for the new window
     // and use it to close the window after the download
@@ -60,7 +60,7 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-            <a className="nav-link" style={{ cursor: "pointer" }}>
+            <a className="nav-link" id="nav-link-download" style={{ cursor: "pointer" }}>
               <i class="fas fa-download" onClick={handleClick}>
                 {" "}
                 Resume
@@ -75,10 +75,12 @@ function Navbar() {
             <h1 className="header__title">
               Hi, I'm <span className="header__title--name">Tonny</span>
             </h1>
-            <p className="header__subtitle">I'm a web developer</p>
-            <button class="btn btn-light btn-lg" id="about-btn">
-              About Me <i class="fad fa-arrow-alt-down"></i>
-            </button>
+            <p className="header__subtitle">Software Engineer</p>
+            <a href="#about-container" className="header__btn">
+              <button class="btn btn-light btn-lg" id="about-btn">
+                About Me <i class="fad fa-arrow-alt-down"></i>
+              </button>
+            </a>
           </div>
         </header>
         {/* end of header section */}
@@ -94,7 +96,6 @@ function Navbar() {
       {/* contact section */}
       <Contact />
       {/* end of contact section */}
-
     </>
   );
 }

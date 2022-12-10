@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from "./assets/images/jenga-shop.png";
 import image2 from "./assets/images/funzo.png";
+import image3 from "../assets/images/cyhealth.png";
 
 function Project() {
   return (
@@ -17,6 +17,7 @@ function Project() {
             <div className="project__card--img">
               <img src={image2} alt="project" />
             </div>
+
             <div className="project__card--content">
               <h3 className="project__card--title">Funzo Learning</h3>
               <p className="project__card--text">
@@ -27,6 +28,7 @@ function Project() {
                 <a
                   href="https://github.com/groupschedule/schedule_frontend"
                   className="btn btn-dark"
+                  target="_blank"
                 >
                   View Project
                 </a>
@@ -37,18 +39,20 @@ function Project() {
           {/* project-2 */}
           <div className="project__card">
             <div className="project__card--img">
-              <img src={image1} alt="jenga-shop-project" />
+              <img src={image3} alt="cy-health" />
             </div>
+
             <div className="project__card--content">
               <h3 className="project__card--title">CyHealth</h3>
               <p className="project__card--text">
-                CyHealth is a health platform that provides a personalized
-                data analysis for COVID-19 patients.
+                CyHealth is a health platform that provides a personalized data
+                analysis for COVID-19 patients.
               </p>
               <div className="project__card--btn">
                 <a
                   href="https://github.com/tonyoseko99/cy-health"
                   className="btn btn-dark"
+                  target="_blank"
                 >
                   View Project
                 </a>
@@ -64,6 +68,7 @@ function Project() {
                 alt="rentals"
               />
             </div>
+
             <div className="project__card--content">
               <h3 className="project__card--title">Rentals</h3>
               <p className="project__card--text">
@@ -73,6 +78,7 @@ function Project() {
                 <a
                   href="https://github.com/tonyoseko99/rentals"
                   className="btn btn-dark"
+                  target="_blank"
                 >
                   View Project
                 </a>

@@ -1,6 +1,5 @@
 import React from "react";
-import image from "../assets/image.png";
-function About({ handleClick}) {
+function About({ handleClick }) {
   return (
     <div className="container" id="about-container">
       <div className="about__container">
@@ -13,10 +12,53 @@ function About({ handleClick}) {
           also love playing around with new technologies to see how they can be
           used in different ways.
         </p>
-        <a
-          className=""
-        >
-          <button type="button" class="btn btn-dark btn-lg" onClick={handleClick}>
+        {/* list skillset */}
+        <div className="about__skillset">
+          <div className="about__skillset--item">
+            <i class="fab fa-html5"></i>
+            <span> HTML5 </span>
+            &nbsp;
+
+            <i class="fab fa-css3-alt"></i>
+            <span> CSS3 </span>
+            &nbsp;
+
+            <i class="fab fa-js-square"></i>
+            <span> JavaScript </span>
+            &nbsp;
+
+            <i class="fab fa-react"></i>
+            <span> React.js </span>
+            &nbsp;
+
+            <i class="fab fa-node-js"></i>
+            <span> Node.js </span>
+
+            <i class="fab fa-bootstrap"></i>
+            <span> Bootstrap </span>
+            &nbsp;
+
+            {/* mongoDB */}
+            <i class="fas fa-database"></i>
+            <span> MongoDB </span>
+            &nbsp;
+
+            {/* ruby */}
+            <i class="fas fa-gem"></i>
+            <span> Ruby </span>
+            &nbsp;
+
+            {/* rails */}
+            <i class="fas fa-train"></i>
+            <span> Rails </span>
+          </div>
+        </div>
+        <a className="">
+          <button
+            type="button"
+            class="btn btn-dark btn-lg"
+            onClick={handleClick}
+          >
             Download CV <i class="fas fa-download"></i>
           </button>
         </a>
