@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .App {
+  background:linear-gradient(90deg,#C0C0C0 0%,#E9F7FF 100%);
   text-align: center;
   resize: both;
 }
@@ -119,6 +120,7 @@ html {
 }
 
 #about-container {
+  background:linear-gradient(90deg,#C0C0C0 0%,#E9F7FF 100%);
   display: flex;
   flex-direction: row;
   justify-content: baseline;
@@ -243,7 +245,7 @@ html {
 
 /* projects section */
 .project {
-  background-color: #1a1918;
+  background:linear-gradient(268deg,#9b9b9b -30%,#000000 60%);
   padding: 50px 0;
 }
 
@@ -343,7 +345,7 @@ html {
 
 /* contact section */
 .contact {
-  background-color: #fff;
+  background:linear-gradient(90deg,#C0C0C0 0%,#E9F7FF 100%);
   padding: 50px;
   color: #1a1918;
   display: flex;
