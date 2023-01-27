@@ -19,7 +19,7 @@ function Project() {
             </div>
 
             <div className="project__card--content">
-              <h3 className="project__card--title">Funzo Learning</h3>
+              <h3 className="project__card--title">Funzo Learn</h3>
               <p className="project__card--text">
                 Funzo Learning is a learning platform that provides a
                 personalized learning experience for students.

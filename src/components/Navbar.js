@@ -6,7 +6,7 @@ import Project from "./Project";
 function Navbar() {
   // function to download resume. Get the resume from the assets folder
   const handleClick = () => {
-    const resume = require("../assets/resume.pdf");
+    const resume = require("../Assets/Files/TonnyResume.pdf");
     const downloadWindow = window.open(resume, "download=yes");
 
     // Register a load event handler for the new window
