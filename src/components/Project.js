@@ -1,6 +1,7 @@
 import React from "react";
-import image2 from "./assets/images/funzo.png";
-import image3 from "../assets/images/cyhealth.png";
+import edukaImg from "../Assets/images/cyhealth.png";
+import healthImg from "../Assets/images/eduka.png";
+import galleriaImg from "../Assets/images/galleria.png";
 
 function Project() {
   return (
@@ -15,18 +16,18 @@ function Project() {
           {/* project-1 */}
           <div className="project__card">
             <div className="project__card--img">
-              <img src={image2} alt="project" />
+              <img src={healthImg} alt="project" />
             </div>
 
             <div className="project__card--content">
-              <h3 className="project__card--title">Funzo Learn</h3>
+              <h3 className="project__card--title">E-Duka</h3>
               <p className="project__card--text">
-                Funzo Learning is a learning platform that provides a
-                personalized learning experience for students.
+                E-Duka is a web application that allows users to purchase and
+                sell goods online. <em>In progress</em>
               </p>
               <div className="project__card--btn">
                 <a
-                  href="https://github.com/groupschedule/schedule_frontend"
+                  href="https://github.com/tonyoseko99/E-Duka"
                   className="btn btn-dark"
                   target="_blank"
                 >
@@ -39,7 +40,7 @@ function Project() {
           {/* project-2 */}
           <div className="project__card">
             <div className="project__card--img">
-              <img src={image3} alt="cy-health" />
+              <img src={edukaImg} alt="cy-health" />
             </div>
 
             <div className="project__card--content">
@@ -64,19 +65,20 @@ function Project() {
           <div className="project__card">
             <div className="project__card--img">
               <img
-                src="https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src={galleriaImg}
                 alt="rentals"
               />
             </div>
 
             <div className="project__card--content">
-              <h3 className="project__card--title">Rentals</h3>
+              <h3 className="project__card--title">Galleria</h3>
               <p className="project__card--text">
-                A rental website for houses and apartments. <em>in progress</em>
+                Galleria is a web application that allows users to view and
+                artworks online.
               </p>
               <div className="project__card--btn">
                 <a
-                  href="https://github.com/tonyoseko99/rentals"
+                  href="https://github.com/tonyoseko99/Spotifai-Galleria"
                   className="btn btn-dark"
                   target="_blank"
                 >
